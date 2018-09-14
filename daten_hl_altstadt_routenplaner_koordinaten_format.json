@@ -1,0 +1,3252 @@
+{
+    "nodes": {
+        "node": [
+            {
+                "@name": "Burgtor",
+                "@id": "1",
+                "coordinates": {
+                    "latitude": "53.874461",
+                    "longitude": "10.691588"
+                },
+                "edges": {
+                    "edge": {
+                        "@to": "3",
+                        "@distance": "80"
+                    }
+                }
+            },
+            {
+                "@name": "An der Untertrave / Kleine Altefähre",
+                "@id": "2",
+                "coordinates": {
+                    "latitude": "53.874076",
+                    "longitude": "10.688678"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "4",
+                            "@distance": "89"
+                        },
+                        {
+                            "@to": "6",
+                            "@distance": "100"
+                        },
+                        {
+                            "@to": "8",
+                            "@distance": "500"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Große Burgstraße / Kaiserstraße",
+                "@id": "3",
+                "coordinates": {
+                    "latitude": "53.873780",
+                    "longitude": "10.691043"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "1",
+                            "@distance": "80"
+                        },
+                        {
+                            "@to": "7",
+                            "@distance": "210"
+                        },
+                        {
+                            "@to": "12",
+                            "@distance": "130"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "An der Untertrave / Große Altefähre",
+                "@id": "4",
+                "coordinates": {
+                    "latitude": "53.873760",
+                    "longitude": "10.687306"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "2",
+                            "@distance": "89"
+                        },
+                        {
+                            "@to": "5",
+                            "@distance": "52"
+                        },
+                        {
+                            "@to": "9",
+                            "@distance": "210"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Große Altefähre / Engelswisch",
+                "@id": "5",
+                "coordinates": {
+                    "latitude": "53.873415",
+                    "longitude": "10.688030"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "4",
+                            "@distance": "52"
+                        },
+                        {
+                            "@to": "6",
+                            "@distance": "65"
+                        },
+                        {
+                            "@to": "10",
+                            "@distance": "170"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Große Altefähre / Klein Altefähre",
+                "@id": "6",
+                "coordinates": {
+                    "latitude": "53.873157",
+                    "longitude": "10.688858"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "2",
+                            "@distance": "100"
+                        },
+                        {
+                            "@to": "5",
+                            "@distance": "65"
+                        },
+                        {
+                            "@to": "11",
+                            "@distance": "240"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Wakenitzmauer / Rosenpforte",
+                "@id": "7",
+                "coordinates": {
+                    "latitude": "53.872350",
+                    "longitude": "10.692397"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "3",
+                            "@distance": "210"
+                        },
+                        {
+                            "@to": "8",
+                            "@distance": "74"
+                        },
+                        {
+                            "@to": "13",
+                            "@distance": "120"
+                        },
+                        {
+                            "@to": "15",
+                            "@distance": "130"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Kanalstraße / Rosenpforte",
+                "@id": "8",
+                "coordinates": {
+                    "latitude": "53.872537",
+                    "longitude": "10.693264"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "2",
+                            "@distance": "500"
+                        },
+                        {
+                            "@to": "7",
+                            "@distance": "74"
+                        },
+                        {
+                            "@to": "17",
+                            "@distance": "230"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "An der Untertrave / Alsheide",
+                "@id": "9",
+                "coordinates": {
+                    "latitude": "53.872812",
+                    "longitude": "10.684715"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "4",
+                            "@distance": "210"
+                        },
+                        {
+                            "@to": "10",
+                            "@distance": "110"
+                        },
+                        {
+                            "@to": "18",
+                            "@distance": "86"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Alsheide / Engelswisch",
+                "@id": "10",
+                "coordinates": {
+                    "latitude": "53.872347",
+                    "longitude": "10.686122"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "5",
+                            "@distance": "170"
+                        },
+                        {
+                            "@to": "9",
+                            "@distance": "110"
+                        },
+                        {
+                            "@to": "20",
+                            "@distance": "63"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Koberg / Engelsgrube",
+                "@id": "11",
+                "coordinates": {
+                    "latitude": "53.871208",
+                    "longitude": "10.688435"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "6",
+                            "@distance": "240"
+                        },
+                        {
+                            "@to": "12",
+                            "@distance": "130"
+                        },
+                        {
+                            "@to": "20",
+                            "@distance": "190"
+                        },
+                        {
+                            "@to": "25",
+                            "@distance": "94"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Große Burgstraße / Große Gröpelgrube",
+                "@id": "12",
+                "coordinates": {
+                    "latitude": "53.871661",
+                    "longitude": "10.690022"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "3",
+                            "@distance": "130"
+                        },
+                        {
+                            "@to": "11",
+                            "@distance": "130"
+                        },
+                        {
+                            "@to": "13",
+                            "@distance": "120"
+                        },
+                        {
+                            "@to": "35",
+                            "@distance": "260"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Große Gröpelgrube / Rosenstraße",
+                "@id": "13",
+                "coordinates": {
+                    "latitude": "53.871392",
+                    "longitude": "10.691802"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "7",
+                            "@distance": "120"
+                        },
+                        {
+                            "@to": "12",
+                            "@distance": "120"
+                        },
+                        {
+                            "@to": "14",
+                            "@distance": "35"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Große Gröpelgrube / Langer Lohberg",
+                "@id": "14",
+                "coordinates": {
+                    "latitude": "53.871370",
+                    "longitude": "10.692307"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "13",
+                            "@distance": "35"
+                        },
+                        {
+                            "@to": "15",
+                            "@distance": "85"
+                        },
+                        {
+                            "@to": "36",
+                            "@distance": "270"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Wakenitzmauer / Große Gröpelgrube",
+                "@id": "15",
+                "coordinates": {
+                    "latitude": "53.871522",
+                    "longitude": "10.693535"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "7",
+                            "@distance": "130"
+                        },
+                        {
+                            "@to": "14",
+                            "@distance": "85"
+                        },
+                        {
+                            "@to": "16",
+                            "@distance": "120"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Wakenitzmauer / Weiter Lohberg",
+                "@id": "16",
+                "coordinates": {
+                    "latitude": "53.870475",
+                    "longitude": "10.693809"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "15",
+                            "@distance": "120"
+                        },
+                        {
+                            "@to": "17",
+                            "@distance": "89"
+                        },
+                        {
+                            "@to": "37",
+                            "@distance": "170"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Kanalstraße / Weiter Lohberg",
+                "@id": "17",
+                "coordinates": {
+                    "latitude": "53.870750",
+                    "longitude": "10.695016"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "8",
+                            "@distance": "230"
+                        },
+                        {
+                            "@to": "16",
+                            "@distance": "89"
+                        },
+                        {
+                            "@to": "38",
+                            "@distance": "200"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "An der Untertrave / Engelsgrube",
+                "@id": "18",
+                "coordinates": {
+                    "latitude": "53.872341",
+                    "longitude": "10.683654"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "9",
+                            "@distance": "86"
+                        },
+                        {
+                            "@to": "19",
+                            "@distance": "61"
+                        },
+                        {
+                            "@to": "21",
+                            "@distance": "200"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Engelsgrube / Große Kiesau",
+                "@id": "19",
+                "coordinates": {
+                    "latitude": "53.872142",
+                    "longitude": "10.684458"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "18",
+                            "@distance": "61"
+                        },
+                        {
+                            "@to": "20",
+                            "@distance": "86"
+                        },
+                        {
+                            "@to": "23",
+                            "@distance": "170"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Engelswisch / Engelsgrube",
+                "@id": "20",
+                "coordinates": {
+                    "latitude": "53.871854",
+                    "longitude": "10.685740"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "10",
+                            "@distance": "63"
+                        },
+                        {
+                            "@to": "11",
+                            "@distance": "190"
+                        },
+                        {
+                            "@to": "19",
+                            "@distance": "86"
+                        },
+                        {
+                            "@to": "24",
+                            "@distance": "150"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "An der Untertrave / Fischergrube",
+                "@id": "21",
+                "coordinates": {
+                    "latitude": "53.871183",
+                    "longitude": "10.681444"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "18",
+                            "@distance": "200"
+                        },
+                        {
+                            "@to": "22",
+                            "@distance": "62"
+                        },
+                        {
+                            "@to": "28",
+                            "@distance": "110"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Fischergrube / Böttcherstraße",
+                "@id": "22",
+                "coordinates": {
+                    "latitude": "53.871006",
+                    "longitude": "10.682415"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "21",
+                            "@distance": "62"
+                        },
+                        {
+                            "@to": "23",
+                            "@distance": "47"
+                        },
+                        {
+                            "@to": "26",
+                            "@distance": "54"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Fischergrube / Ellerbrook",
+                "@id": "23",
+                "coordinates": {
+                    "latitude": "53.870930",
+                    "longitude": "10.683155"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "19",
+                            "@distance": "170"
+                        },
+                        {
+                            "@to": "22",
+                            "@distance": "47"
+                        },
+                        {
+                            "@to": "24",
+                            "@distance": "110"
+                        },
+                        {
+                            "@to": "27",
+                            "@distance": "69"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Fischergrube / Schwönekenquerstraße",
+                "@id": "24",
+                "coordinates": {
+                    "latitude": "53.870756",
+                    "longitude": "10.684716"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "20",
+                            "@distance": "150"
+                        },
+                        {
+                            "@to": "23",
+                            "@distance": "110"
+                        },
+                        {
+                            "@to": "25",
+                            "@distance": "220"
+                        },
+                        {
+                            "@to": "33",
+                            "@distance": "120"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Fischergrube / Koberg",
+                "@id": "25",
+                "coordinates": {
+                    "latitude": "53.870361",
+                    "longitude": "10.688036"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "11",
+                            "@distance": "94"
+                        },
+                        {
+                            "@to": "24",
+                            "@distance": "220"
+                        },
+                        {
+                            "@to": "34",
+                            "@distance": "86"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Böttcherstraße / Bierspünderstraße",
+                "@id": "26",
+                "coordinates": {
+                    "latitude": "53.870529",
+                    "longitude": "10.682055"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "22",
+                            "@distance": "54"
+                        },
+                        {
+                            "@to": "27",
+                            "@distance": "62"
+                        },
+                        {
+                            "@to": "29",
+                            "@distance": "52"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Ellerbrook / Bierspünderstraße",
+                "@id": "27",
+                "coordinates": {
+                    "latitude": "53.870298",
+                    "longitude": "10.682913"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "23",
+                            "@distance": "69"
+                        },
+                        {
+                            "@to": "26",
+                            "@distance": "62"
+                        },
+                        {
+                            "@to": "32",
+                            "@distance": "72"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "An der Untertrave / Clemensstraße",
+                "@id": "28",
+                "coordinates": {
+                    "latitude": "53.870421",
+                    "longitude": "10.680317"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "21",
+                            "@distance": "110"
+                        },
+                        {
+                            "@to": "29",
+                            "@distance": "100"
+                        },
+                        {
+                            "@to": "30",
+                            "@distance": "84"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Böttcherstraße / Clemensstraße",
+                "@id": "29",
+                "coordinates": {
+                    "latitude": "53.870117",
+                    "longitude": "10.681771"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "26",
+                            "@distance": "52"
+                        },
+                        {
+                            "@to": "28",
+                            "@distance": "100"
+                        },
+                        {
+                            "@to": "31",
+                            "@distance": "52"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "An der Untertrave / Beckergrube",
+                "@id": "30",
+                "coordinates": {
+                    "latitude": "53.869713",
+                    "longitude": "10.680027"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "28",
+                            "@distance": "84"
+                        },
+                        {
+                            "@to": "31",
+                            "@distance": "100"
+                        },
+                        {
+                            "@to": "39",
+                            "@distance": "85"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Beckergrube / Böttcherstraße",
+                "@id": "31",
+                "coordinates": {
+                    "latitude": "53.869681",
+                    "longitude": "10.681567"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "29",
+                            "@distance": "52"
+                        },
+                        {
+                            "@to": "30",
+                            "@distance": "100"
+                        },
+                        {
+                            "@to": "32",
+                            "@distance": "83"
+                        },
+                        {
+                            "@to": "40",
+                            "@distance": "100"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Beckergrube / Ellerbrook",
+                "@id": "32",
+                "coordinates": {
+                    "latitude": "53.869665",
+                    "longitude": "10.682833"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "27",
+                            "@distance": "72"
+                        },
+                        {
+                            "@to": "31",
+                            "@distance": "83"
+                        },
+                        {
+                            "@to": "33",
+                            "@distance": "110"
+                        },
+                        {
+                            "@to": "41",
+                            "@distance": "120"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Beckergrube / Kupferschmiedestraße",
+                "@id": "33",
+                "coordinates": {
+                    "latitude": "53.869646",
+                    "longitude": "10.684571"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "24",
+                            "@distance": "120"
+                        },
+                        {
+                            "@to": "32",
+                            "@distance": "110"
+                        },
+                        {
+                            "@to": "34",
+                            "@distance": "200"
+                        },
+                        {
+                            "@to": "42",
+                            "@distance": "140"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Beckergrube / Koberg",
+                "@id": "34",
+                "coordinates": {
+                    "latitude": "53.869637",
+                    "longitude": "10.687645"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "25",
+                            "@distance": "86"
+                        },
+                        {
+                            "@to": "33",
+                            "@distance": "200"
+                        },
+                        {
+                            "@to": "35",
+                            "@distance": "99"
+                        },
+                        {
+                            "@to": "43",
+                            "@distance": "180"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Königstraße / Glockengießerstraße",
+                "@id": "35",
+                "coordinates": {
+                    "latitude": "53.869431",
+                    "longitude": "10.689045"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "12",
+                            "@distance": "260"
+                        },
+                        {
+                            "@to": "34",
+                            "@distance": "99"
+                        },
+                        {
+                            "@to": "36",
+                            "@distance": "250"
+                        },
+                        {
+                            "@to": "44",
+                            "@distance": "100"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Glockengießerstraße / Langer Lohberg",
+                "@id": "36",
+                "coordinates": {
+                    "latitude": "53.869007",
+                    "longitude": "10.692795"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "14",
+                            "@distance": "270"
+                        },
+                        {
+                            "@to": "35",
+                            "@distance": "250"
+                        },
+                        {
+                            "@to": "37",
+                            "@distance": "110"
+                        },
+                        {
+                            "@to": "46",
+                            "@distance": "99"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Wakenitzmauer / Glockengießerstraße",
+                "@id": "37",
+                "coordinates": {
+                    "latitude": "53.868995",
+                    "longitude": "10.694484"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "16",
+                            "@distance": "170"
+                        },
+                        {
+                            "@to": "36",
+                            "@distance": "110"
+                        },
+                        {
+                            "@to": "38",
+                            "@distance": "82"
+                        },
+                        {
+                            "@to": "48",
+                            "@distance": "140"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Kanalstraße / Glockengießerstraße",
+                "@id": "38",
+                "coordinates": {
+                    "latitude": "53.868979",
+                    "longitude": "10.695606"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "17",
+                            "@distance": "200"
+                        },
+                        {
+                            "@to": "37",
+                            "@distance": "82"
+                        },
+                        {
+                            "@to": "49",
+                            "@distance": "140"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "An der Untertrave / Mengstraße",
+                "@id": "39",
+                "coordinates": {
+                    "latitude": "53.868931",
+                    "longitude": "10.680140"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "30",
+                            "@distance": "85"
+                        },
+                        {
+                            "@to": "40",
+                            "@distance": "83"
+                        },
+                        {
+                            "@to": "51",
+                            "@distance": "80"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Mengstraße / Siebente Querstraße",
+                "@id": "40",
+                "coordinates": {
+                    "latitude": "53.868766",
+                    "longitude": "10.681401"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "31",
+                            "@distance": "100"
+                        },
+                        {
+                            "@to": "39",
+                            "@distance": "83"
+                        },
+                        {
+                            "@to": "41",
+                            "@distance": "78"
+                        },
+                        {
+                            "@to": "52",
+                            "@distance": "78"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Mengstraße / Blocksquerstraße",
+                "@id": "41",
+                "coordinates": {
+                    "latitude": "53.868620",
+                    "longitude": "10.682531"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "32",
+                            "@distance": "120"
+                        },
+                        {
+                            "@to": "40",
+                            "@distance": "78"
+                        },
+                        {
+                            "@to": "42",
+                            "@distance": "120"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Mengstraße / Fünfhausen",
+                "@id": "42",
+                "coordinates": {
+                    "latitude": "53.868350",
+                    "longitude": "10.684285"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "33",
+                            "@distance": "140"
+                        },
+                        {
+                            "@to": "41",
+                            "@distance": "120"
+                        },
+                        {
+                            "@to": "43",
+                            "@distance": "140"
+                        },
+                        {
+                            "@to": "54",
+                            "@distance": "34"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Mengstraße / Breite Straße",
+                "@id": "43",
+                "coordinates": {
+                    "latitude": "53.868133",
+                    "longitude": "10.686331"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "34",
+                            "@distance": "180"
+                        },
+                        {
+                            "@to": "42",
+                            "@distance": "140"
+                        },
+                        {
+                            "@to": "45",
+                            "@distance": "120"
+                        },
+                        {
+                            "@to": "55",
+                            "@distance": "48"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Königstraße / Hundestraße",
+                "@id": "44",
+                "coordinates": {
+                    "latitude": "53.868568",
+                    "longitude": "10.688515"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "35",
+                            "@distance": "100"
+                        },
+                        {
+                            "@to": "45",
+                            "@distance": "71"
+                        },
+                        {
+                            "@to": "46",
+                            "@distance": "280"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Königstraße / Dr.-Julius-Leber-Straße",
+                "@id": "45",
+                "coordinates": {
+                    "latitude": "53.867949",
+                    "longitude": "10.688118"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "43",
+                            "@distance": "120"
+                        },
+                        {
+                            "@to": "44",
+                            "@distance": "71"
+                        },
+                        {
+                            "@to": "47",
+                            "@distance": "290"
+                        },
+                        {
+                            "@to": "56",
+                            "@distance": "72"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Hundestraße / Tünkenhagen",
+                "@id": "46",
+                "coordinates": {
+                    "latitude": "53.868097",
+                    "longitude": "10.692724"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "36",
+                            "@distance": "99"
+                        },
+                        {
+                            "@to": "44",
+                            "@distance": "280"
+                        },
+                        {
+                            "@to": "47",
+                            "@distance": "100"
+                        },
+                        {
+                            "@to": "48",
+                            "@distance": "160"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Dr.-Julius-Leber-Straße / Rosengarten",
+                "@id": "47",
+                "coordinates": {
+                    "latitude": "53.867222",
+                    "longitude": "10.692396"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "45",
+                            "@distance": "290"
+                        },
+                        {
+                            "@to": "46",
+                            "@distance": "100"
+                        },
+                        {
+                            "@to": "50",
+                            "@distance": "190"
+                        },
+                        {
+                            "@to": "64",
+                            "@distance": "130"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Hundestraße / Wakenitzmauer",
+                "@id": "48",
+                "coordinates": {
+                    "latitude": "53.867842",
+                    "longitude": "10.695069"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "37",
+                            "@distance": "140"
+                        },
+                        {
+                            "@to": "46",
+                            "@distance": "160"
+                        },
+                        {
+                            "@to": "49",
+                            "@distance": "40"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Kanalstraße / Hundestraße",
+                "@id": "49",
+                "coordinates": {
+                    "latitude": "53.867762",
+                    "longitude": "10.695499"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "38",
+                            "@distance": "140"
+                        },
+                        {
+                            "@to": "48",
+                            "@distance": "40"
+                        },
+                        {
+                            "@to": "50",
+                            "@distance": "140"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Kanalstraße / Dr.-Julius-Leber-Straße",
+                "@id": "50",
+                "coordinates": {
+                    "latitude": "53.866573",
+                    "longitude": "10.694887"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "47",
+                            "@distance": "190"
+                        },
+                        {
+                            "@to": "49",
+                            "@distance": "140"
+                        },
+                        {
+                            "@to": "66",
+                            "@distance": "100"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "An der Untertrave / Alfstraße",
+                "@id": "51",
+                "coordinates": {
+                    "latitude": "53.868237",
+                    "longitude": "10.680410"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "39",
+                            "@distance": "80"
+                        },
+                        {
+                            "@to": "52",
+                            "@distance": "57"
+                        },
+                        {
+                            "@to": "57",
+                            "@distance": "74"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Alfstraße / Gerade Querstraße",
+                "@id": "52",
+                "coordinates": {
+                    "latitude": "53.868215",
+                    "longitude": "10.681343"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "40",
+                            "@distance": "78"
+                        },
+                        {
+                            "@to": "51",
+                            "@distance": "57"
+                        },
+                        {
+                            "@to": "53",
+                            "@distance": "130"
+                        },
+                        {
+                            "@to": "58",
+                            "@distance": "65"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Alfstraße / Neue Querstraße",
+                "@id": "53",
+                "coordinates": {
+                    "latitude": "53.868107",
+                    "longitude": "10.683299"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "52",
+                            "@distance": "130"
+                        },
+                        {
+                            "@to": "54",
+                            "@distance": "54"
+                        },
+                        {
+                            "@to": "59",
+                            "@distance": "59"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Alfstraße / Schüsselbuden",
+                "@id": "54",
+                "coordinates": {
+                    "latitude": "53.868066",
+                    "longitude": "10.684132"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "42",
+                            "@distance": "34"
+                        },
+                        {
+                            "@to": "53",
+                            "@distance": "54"
+                        },
+                        {
+                            "@to": "60",
+                            "@distance": "59"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Breite Straße / Schrangen",
+                "@id": "55",
+                "coordinates": {
+                    "latitude": "53.867708",
+                    "longitude": "10.686115"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "43",
+                            "@distance": "48"
+                        },
+                        {
+                            "@to": "56",
+                            "@distance": "110"
+                        },
+                        {
+                            "@to": "62",
+                            "@distance": "47"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Königstraße / Schrangen",
+                "@id": "56",
+                "coordinates": {
+                    "latitude": "53.867401",
+                    "longitude": "10.687631"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "45",
+                            "@distance": "72"
+                        },
+                        {
+                            "@to": "55",
+                            "@distance": "110"
+                        },
+                        {
+                            "@to": "63",
+                            "@distance": "47"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "An der Untertrave / Fischstraße",
+                "@id": "57",
+                "coordinates": {
+                    "latitude": "53.867593",
+                    "longitude": "10.680590"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "51",
+                            "@distance": "74"
+                        },
+                        {
+                            "@to": "58",
+                            "@distance": "50"
+                        },
+                        {
+                            "@to": "67",
+                            "@distance": "75"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Fischstraße / Gerade Querstraße",
+                "@id": "58",
+                "coordinates": {
+                    "latitude": "53.867619",
+                    "longitude": "10.681336"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "52",
+                            "@distance": "65"
+                        },
+                        {
+                            "@to": "57",
+                            "@distance": "50"
+                        },
+                        {
+                            "@to": "59",
+                            "@distance": "120"
+                        },
+                        {
+                            "@to": "68",
+                            "@distance": "100"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Fischstraße / Neue Querstraße",
+                "@id": "59",
+                "coordinates": {
+                    "latitude": "53.867593",
+                    "longitude": "10.683237"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "53",
+                            "@distance": "59"
+                        },
+                        {
+                            "@to": "58",
+                            "@distance": "120"
+                        },
+                        {
+                            "@to": "60",
+                            "@distance": "54"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Fischstraße / Schüselbuden",
+                "@id": "60",
+                "coordinates": {
+                    "latitude": "53.867557",
+                    "longitude": "10.684034"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "54",
+                            "@distance": "59"
+                        },
+                        {
+                            "@to": "59",
+                            "@distance": "54"
+                        },
+                        {
+                            "@to": "61",
+                            "@distance": "45"
+                        },
+                        {
+                            "@to": "69",
+                            "@distance": "55"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Marienkirchhof / Markttwiete",
+                "@id": "61",
+                "coordinates": {
+                    "latitude": "53.867506",
+                    "longitude": "10.684661"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "60",
+                            "@distance": "45"
+                        },
+                        {
+                            "@to": "62",
+                            "@distance": "81"
+                        },
+                        {
+                            "@to": "70",
+                            "@distance": "55"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Breite Straße / Fleischhauerstraße",
+                "@id": "62",
+                "coordinates": {
+                    "latitude": "53.867281",
+                    "longitude": "10.685901"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "55",
+                            "@distance": "47"
+                        },
+                        {
+                            "@to": "61",
+                            "@distance": "81"
+                        },
+                        {
+                            "@to": "63",
+                            "@distance": "110"
+                        },
+                        {
+                            "@to": "72",
+                            "@distance": "69"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Königstraße / Fleischhauerstraße",
+                "@id": "63",
+                "coordinates": {
+                    "latitude": "53.867005",
+                    "longitude": "10.687360"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "56",
+                            "@distance": "47"
+                        },
+                        {
+                            "@to": "62",
+                            "@distance": "110"
+                        },
+                        {
+                            "@to": "64",
+                            "@distance": "300"
+                        },
+                        {
+                            "@to": "73",
+                            "@distance": "75"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Bei St. Johannis / Fleischhauerstraße",
+                "@id": "64",
+                "coordinates": {
+                    "latitude": "53.866139",
+                    "longitude": "10.691881"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "47",
+                            "@distance": "130"
+                        },
+                        {
+                            "@to": "63",
+                            "@distance": "300"
+                        },
+                        {
+                            "@to": "65",
+                            "@distance": "87"
+                        },
+                        {
+                            "@to": "74",
+                            "@distance": "190"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Fleischhauerstraße / An der Mauer",
+                "@id": "65",
+                "coordinates": {
+                    "latitude": "53.865949",
+                    "longitude": "10.693170"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "64",
+                            "@distance": "87"
+                        },
+                        {
+                            "@to": "66",
+                            "@distance": "83"
+                        },
+                        {
+                            "@to": "75",
+                            "@distance": "130"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Kanalstraße / Fleischhauerstraße",
+                "@id": "66",
+                "coordinates": {
+                    "latitude": "53.865761",
+                    "longitude": "10.694382"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "50",
+                            "@distance": "100"
+                        },
+                        {
+                            "@to": "65",
+                            "@distance": "83"
+                        },
+                        {
+                            "@to": "75",
+                            "@distance": "170"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "An der Untertrave / Braunstraße",
+                "@id": "67",
+                "coordinates": {
+                    "latitude": "53.866941",
+                    "longitude": "10.680717"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "57",
+                            "@distance": "75"
+                        },
+                        {
+                            "@to": "68",
+                            "@distance": "83"
+                        },
+                        {
+                            "@to": "76",
+                            "@distance": "140"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Braunstraße / Lederstraße",
+                "@id": "68",
+                "coordinates": {
+                    "latitude": "53.867001",
+                    "longitude": "10.681985"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "58",
+                            "@distance": "100"
+                        },
+                        {
+                            "@to": "67",
+                            "@distance": "83"
+                        },
+                        {
+                            "@to": "69",
+                            "@distance": "130"
+                        },
+                        {
+                            "@to": "77",
+                            "@distance": "75"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Braunstraße / Schüsselbuden",
+                "@id": "69",
+                "coordinates": {
+                    "latitude": "53.867052",
+                    "longitude": "10.683976"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "60",
+                            "@distance": "55"
+                        },
+                        {
+                            "@to": "68",
+                            "@distance": "130"
+                        },
+                        {
+                            "@to": "70",
+                            "@distance": "44"
+                        },
+                        {
+                            "@to": "78",
+                            "@distance": "89"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Markttwiete / Markt",
+                "@id": "70",
+                "coordinates": {
+                    "latitude": "53.867003",
+                    "longitude": "10.684541"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "61",
+                            "@distance": "55"
+                        },
+                        {
+                            "@to": "69",
+                            "@distance": "44"
+                        },
+                        {
+                            "@to": "71",
+                            "@distance": "61"
+                        },
+                        {
+                            "@to": "79",
+                            "@distance": "97"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Markt / Hüxstraße",
+                "@id": "71",
+                "coordinates": {
+                    "latitude": "53.866897",
+                    "longitude": "10.685327"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "70",
+                            "@distance": "61"
+                        },
+                        {
+                            "@to": "72",
+                            "@distance": "25"
+                        },
+                        {
+                            "@to": "80",
+                            "@distance": "91"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Breite Straße / Hüxstraße",
+                "@id": "72",
+                "coordinates": {
+                    "latitude": "53.866664",
+                    "longitude": "10.685624"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "62",
+                            "@distance": "69"
+                        },
+                        {
+                            "@to": "71",
+                            "@distance": "25"
+                        },
+                        {
+                            "@to": "73",
+                            "@distance": "99"
+                        },
+                        {
+                            "@to": "81",
+                            "@distance": "87"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Königstraße / Hüxstraße",
+                "@id": "73",
+                "coordinates": {
+                    "latitude": "53.866376",
+                    "longitude": "10.686992"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "63",
+                            "@distance": "75"
+                        },
+                        {
+                            "@to": "72",
+                            "@distance": "99"
+                        },
+                        {
+                            "@to": "74",
+                            "@distance": "300"
+                        },
+                        {
+                            "@to": "82",
+                            "@distance": "99"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Hüxstraße / Schlumacherstraße",
+                "@id": "74",
+                "coordinates": {
+                    "latitude": "53.865248",
+                    "longitude": "10.691280"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "64",
+                            "@distance": "190"
+                        },
+                        {
+                            "@to": "73",
+                            "@distance": "300"
+                        },
+                        {
+                            "@to": "75",
+                            "@distance": "130"
+                        },
+                        {
+                            "@to": "83",
+                            "@distance": "76"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Hüxstraße / An der Mauer",
+                "@id": "75",
+                "coordinates": {
+                    "latitude": "53.864789",
+                    "longitude": "10.693104"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "65",
+                            "@distance": "130"
+                        },
+                        {
+                            "@to": "66",
+                            "@distance": "170"
+                        },
+                        {
+                            "@to": "74",
+                            "@distance": "130"
+                        },
+                        {
+                            "@to": "84",
+                            "@distance": "88"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Holstenbrücke",
+                "@id": "76",
+                "coordinates": {
+                    "latitude": "53.866283",
+                    "longitude": "10.680926"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "67",
+                            "@distance": "140"
+                        },
+                        {
+                            "@to": "77",
+                            "@distance": "80"
+                        },
+                        {
+                            "@to": "85",
+                            "@distance": "70"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Holstenstraße / Lederstraße",
+                "@id": "77",
+                "coordinates": {
+                    "latitude": "53.866355",
+                    "longitude": "10.682178"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "68",
+                            "@distance": "75"
+                        },
+                        {
+                            "@to": "76",
+                            "@distance": "80"
+                        },
+                        {
+                            "@to": "78",
+                            "@distance": "110"
+                        },
+                        {
+                            "@to": "86",
+                            "@distance": "53"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Holstenstraße / Schüsselbuden",
+                "@id": "78",
+                "coordinates": {
+                    "latitude": "53.866283",
+                    "longitude": "10.683904"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "69",
+                            "@distance": "89"
+                        },
+                        {
+                            "@to": "77",
+                            "@distance": "110"
+                        },
+                        {
+                            "@to": "79",
+                            "@distance": "32"
+                        },
+                        {
+                            "@to": "89",
+                            "@distance": "41"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Kohlmarkt / Markt",
+                "@id": "79",
+                "coordinates": {
+                    "latitude": "53.866217",
+                    "longitude": "10.684319"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "70",
+                            "@distance": "97"
+                        },
+                        {
+                            "@to": "78",
+                            "@distance": "32"
+                        },
+                        {
+                            "@to": "80",
+                            "@distance": "46"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Kohlmarkt / Markt (Wellensteyn)",
+                "@id": "80",
+                "coordinates": {
+                    "latitude": "53.866076",
+                    "longitude": "10.684950"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "71",
+                            "@distance": "91"
+                        },
+                        {
+                            "@to": "79",
+                            "@distance": "46"
+                        },
+                        {
+                            "@to": "81",
+                            "@distance": "19"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Kohlmarkt / Breite Straße",
+                "@id": "81",
+                "coordinates": {
+                    "latitude": "53.865973",
+                    "longitude": "10.685370"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "72",
+                            "@distance": "87"
+                        },
+                        {
+                            "@to": "80",
+                            "@distance": "19"
+                        },
+                        {
+                            "@to": "82",
+                            "@distance": "98"
+                        },
+                        {
+                            "@to": "94",
+                            "@distance": "140"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Wahmstraße / Königstraße",
+                "@id": "82",
+                "coordinates": {
+                    "latitude": "53.865524",
+                    "longitude": "10.686535"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "73",
+                            "@distance": "99"
+                        },
+                        {
+                            "@to": "81",
+                            "@distance": "98"
+                        },
+                        {
+                            "@to": "83",
+                            "@distance": "300"
+                        },
+                        {
+                            "@to": "95",
+                            "@distance": "110"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Wahmstraße / Balauerfohr",
+                "@id": "83",
+                "coordinates": {
+                    "latitude": "53.864599",
+                    "longitude": "10.690844"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "74",
+                            "@distance": "76"
+                        },
+                        {
+                            "@to": "82",
+                            "@distance": "300"
+                        },
+                        {
+                            "@to": "84",
+                            "@distance": "160"
+                        },
+                        {
+                            "@to": "97",
+                            "@distance": "67"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Krähenstraße / An der Mauer",
+                "@id": "84",
+                "coordinates": {
+                    "latitude": "53.863951",
+                    "longitude": "10.692983"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "75",
+                            "@distance": "88"
+                        },
+                        {
+                            "@to": "83",
+                            "@distance": "160"
+                        },
+                        {
+                            "@to": "109",
+                            "@distance": "150"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "An der Obertrave / Pagönnienstraße",
+                "@id": "85",
+                "coordinates": {
+                    "latitude": "53.865658",
+                    "longitude": "10.681179"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "76",
+                            "@distance": "70"
+                        },
+                        {
+                            "@to": "86",
+                            "@distance": "81"
+                        },
+                        {
+                            "@to": "87",
+                            "@distance": "32"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Pagönnienstraße / Kolk",
+                "@id": "86",
+                "coordinates": {
+                    "latitude": "53.865847",
+                    "longitude": "10.682304"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "77",
+                            "@distance": "53"
+                        },
+                        {
+                            "@to": "85",
+                            "@distance": "81"
+                        },
+                        {
+                            "@to": "88",
+                            "@distance": "29"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "An der Obertrave / Kleine Petersgrube",
+                "@id": "87",
+                "coordinates": {
+                    "latitude": "53.865366",
+                    "longitude": "10.681244"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "85",
+                            "@distance": "32"
+                        },
+                        {
+                            "@to": "88",
+                            "@distance": "86"
+                        },
+                        {
+                            "@to": "90",
+                            "@distance": "44"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Kleine Petersgrube / Kolk",
+                "@id": "88",
+                "coordinates": {
+                    "latitude": "53.865623",
+                    "longitude": "10.682426"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "86",
+                            "@distance": "29"
+                        },
+                        {
+                            "@to": "87",
+                            "@distance": "86"
+                        },
+                        {
+                            "@to": "91",
+                            "@distance": "36"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Große Petersgrube / Schmiedestraße",
+                "@id": "89",
+                "coordinates": {
+                    "latitude": "53.865586",
+                    "longitude": "10.683796"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "78",
+                            "@distance": "41"
+                        },
+                        {
+                            "@to": "91",
+                            "@distance": "63"
+                        },
+                        {
+                            "@to": "94",
+                            "@distance": "150"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "An der Obertrave / Große Petersgrube",
+                "@id": "90",
+                "coordinates": {
+                    "latitude": "53.864967",
+                    "longitude": "10.681266"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "87",
+                            "@distance": "44"
+                        },
+                        {
+                            "@to": "91",
+                            "@distance": "110"
+                        },
+                        {
+                            "@to": "92",
+                            "@distance": "76"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Große Petersgrube / Kleine Kiesau",
+                "@id": "91",
+                "coordinates": {
+                    "latitude": "53.865352",
+                    "longitude": "10.682769"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "88",
+                            "@distance": "36"
+                        },
+                        {
+                            "@to": "89",
+                            "@distance": "63"
+                        },
+                        {
+                            "@to": "90",
+                            "@distance": "110"
+                        },
+                        {
+                            "@to": "93",
+                            "@distance": "69"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "An der Obertrave / Depenau",
+                "@id": "92",
+                "coordinates": {
+                    "latitude": "53.864310",
+                    "longitude": "10.681167"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "90",
+                            "@distance": "76"
+                        },
+                        {
+                            "@to": "93",
+                            "@distance": "160"
+                        },
+                        {
+                            "@to": "98",
+                            "@distance": "69"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Depenau / Kleine Kiesau",
+                "@id": "93",
+                "coordinates": {
+                    "latitude": "53.864858",
+                    "longitude": "10.683382"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "91",
+                            "@distance": "69"
+                        },
+                        {
+                            "@to": "92",
+                            "@distance": "160"
+                        },
+                        {
+                            "@to": "100",
+                            "@distance": "81"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Schmiedestraße / Sandstraße",
+                "@id": "94",
+                "coordinates": {
+                    "latitude": "53.864633",
+                    "longitude": "10.685249"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "81",
+                            "@distance": "140"
+                        },
+                        {
+                            "@to": "89",
+                            "@distance": "150"
+                        },
+                        {
+                            "@to": "95",
+                            "@distance": "86"
+                        },
+                        {
+                            "@to": "101",
+                            "@distance": "40"
+                        },
+                        {
+                            "@to": "102",
+                            "@distance": "37"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Aegidienstraße / Königstraße",
+                "@id": "95",
+                "coordinates": {
+                    "latitude": "53.864504",
+                    "longitude": "10.686485"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "82",
+                            "@distance": "110"
+                        },
+                        {
+                            "@to": "94",
+                            "@distance": "86"
+                        },
+                        {
+                            "@to": "96",
+                            "@distance": "96"
+                        },
+                        {
+                            "@to": "106",
+                            "@distance": "98"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Aegidienstraße / Pergamentmachergang",
+                "@id": "96",
+                "coordinates": {
+                    "latitude": "53.864282",
+                    "longitude": "10.687923"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "95",
+                            "@distance": "96"
+                        },
+                        {
+                            "@to": "97",
+                            "@distance": "170"
+                        },
+                        {
+                            "@to": "108",
+                            "@distance": "140"
+                        },
+                        {
+                            "@to": "111",
+                            "@distance": "190"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Aegidienstraße / Balauerfohr",
+                "@id": "97",
+                "coordinates": {
+                    "latitude": "53.864088",
+                    "longitude": "10.690416"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "83",
+                            "@distance": "67"
+                        },
+                        {
+                            "@to": "96",
+                            "@distance": "170"
+                        },
+                        {
+                            "@to": "108",
+                            "@distance": "73"
+                        },
+                        {
+                            "@to": "109",
+                            "@distance": "130"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "An der Obertrave / Marlesgrube",
+                "@id": "98",
+                "coordinates": {
+                    "latitude": "53.863704",
+                    "longitude": "10.680833"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "92",
+                            "@distance": "69"
+                        },
+                        {
+                            "@to": "99",
+                            "@distance": "63"
+                        },
+                        {
+                            "@to": "103",
+                            "@distance": "110"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Marlesgrube / Düstere Querstraße",
+                "@id": "99",
+                "coordinates": {
+                    "latitude": "53.863830",
+                    "longitude": "10.681719"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "98",
+                            "@distance": "63"
+                        },
+                        {
+                            "@to": "100",
+                            "@distance": "130"
+                        },
+                        {
+                            "@to": "104",
+                            "@distance": "99"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Marlesgrube / Kleine Kiesau",
+                "@id": "100",
+                "coordinates": {
+                    "latitude": "53.864145",
+                    "longitude": "10.683655"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "93",
+                            "@distance": "81"
+                        },
+                        {
+                            "@to": "99",
+                            "@distance": "130"
+                        },
+                        {
+                            "@to": "101",
+                            "@distance": "86"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Marlesgrube / Schmiedestraße",
+                "@id": "101",
+                "coordinates": {
+                    "latitude": "53.864286",
+                    "longitude": "10.685007"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "94",
+                            "@distance": "40"
+                        },
+                        {
+                            "@to": "100",
+                            "@distance": "86"
+                        },
+                        {
+                            "@to": "102",
+                            "@distance": "36"
+                        },
+                        {
+                            "@to": "105",
+                            "@distance": "130"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Mühlenstraße / Klingenberg",
+                "@id": "102",
+                "coordinates": {
+                    "latitude": "53.864464",
+                    "longitude": "10.685371"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "94",
+                            "@distance": "37"
+                        },
+                        {
+                            "@to": "101",
+                            "@distance": "36"
+                        },
+                        {
+                            "@to": "106",
+                            "@distance": "96"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "An der Obertrave / Dankwartsgrube",
+                "@id": "103",
+                "coordinates": {
+                    "latitude": "53.862815",
+                    "longitude": "10.680360"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "98",
+                            "@distance": "110"
+                        },
+                        {
+                            "@to": "104",
+                            "@distance": "110"
+                        },
+                        {
+                            "@to": "117",
+                            "@distance": "95"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Dankwartsgrube / Düstere Querstraße",
+                "@id": "104",
+                "coordinates": {
+                    "latitude": "53.862949",
+                    "longitude": "10.681924"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "99",
+                            "@distance": "99"
+                        },
+                        {
+                            "@to": "103",
+                            "@distance": "110"
+                        },
+                        {
+                            "@to": "105",
+                            "@distance": "200"
+                        },
+                        {
+                            "@to": "118",
+                            "@distance": "110"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Dankwartsgrube / Pferdemarkt",
+                "@id": "105",
+                "coordinates": {
+                    "latitude": "53.863139",
+                    "longitude": "10.685044"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "101",
+                            "@distance": "130"
+                        },
+                        {
+                            "@to": "104",
+                            "@distance": "200"
+                        },
+                        {
+                            "@to": "107",
+                            "@distance": "100"
+                        },
+                        {
+                            "@to": "120",
+                            "@distance": "150"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Mühlenstraße / Königstraße",
+                "@id": "106",
+                "coordinates": {
+                    "latitude": "53.863652",
+                    "longitude": "10.686258"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "95",
+                            "@distance": "98"
+                        },
+                        {
+                            "@to": "102",
+                            "@distance": "96"
+                        },
+                        {
+                            "@to": "107",
+                            "@distance": "40"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Mühlenstraße / Kapitelstraße",
+                "@id": "107",
+                "coordinates": {
+                    "latitude": "53.863318",
+                    "longitude": "10.686546"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "105",
+                            "@distance": "100"
+                        },
+                        {
+                            "@to": "106",
+                            "@distance": "40"
+                        },
+                        {
+                            "@to": "111",
+                            "@distance": "49"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Sankt-Annen-Straße / Schildstraße",
+                "@id": "108",
+                "coordinates": {
+                    "latitude": "53.863591",
+                    "longitude": "10.689687"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "96",
+                            "@distance": "140"
+                        },
+                        {
+                            "@to": "97",
+                            "@distance": "73"
+                        },
+                        {
+                            "@to": "110",
+                            "@distance": "110"
+                        },
+                        {
+                            "@to": "113",
+                            "@distance": "130"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "An der Mauer / Stavenstraße",
+                "@id": "109",
+                "coordinates": {
+                    "latitude": "53.863016",
+                    "longitude": "10.691465"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "84",
+                            "@distance": "150"
+                        },
+                        {
+                            "@to": "97",
+                            "@distance": "130"
+                        },
+                        {
+                            "@to": "110",
+                            "@distance": "59"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "An der Mauer / Weberstraße",
+                "@id": "110",
+                "coordinates": {
+                    "latitude": "53.862776",
+                    "longitude": "10.690721"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "108",
+                            "@distance": "110"
+                        },
+                        {
+                            "@to": "109",
+                            "@distance": "59"
+                        },
+                        {
+                            "@to": "115",
+                            "@distance": "130"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Mühlenstraße / Pergamentmachergang",
+                "@id": "111",
+                "coordinates": {
+                    "latitude": "53.862971",
+                    "longitude": "10.686929"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "96",
+                            "@distance": "190"
+                        },
+                        {
+                            "@to": "107",
+                            "@distance": "49"
+                        },
+                        {
+                            "@to": "112",
+                            "@distance": "34"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Mühlenstraße / Fegefeuer",
+                "@id": "112",
+                "coordinates": {
+                    "latitude": "53.862633",
+                    "longitude": "10.687200"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "111",
+                            "@distance": "34"
+                        },
+                        {
+                            "@to": "114",
+                            "@distance": "33"
+                        },
+                        {
+                            "@to": "121",
+                            "@distance": "140"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Sankt-Annen-Straße / Düvekenstraße",
+                "@id": "113",
+                "coordinates": {
+                    "latitude": "53.862780",
+                    "longitude": "10.688171"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "108",
+                            "@distance": "130"
+                        },
+                        {
+                            "@to": "114",
+                            "@distance": "63"
+                        },
+                        {
+                            "@to": "115",
+                            "@distance": "110"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Mühlenstraße / Sankt-Annen-Straße",
+                "@id": "114",
+                "coordinates": {
+                    "latitude": "53.862432",
+                    "longitude": "10.687454"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "112",
+                            "@distance": "33"
+                        },
+                        {
+                            "@to": "113",
+                            "@distance": "63"
+                        },
+                        {
+                            "@to": "116",
+                            "@distance": "120"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "An der Mauer / Düvekenstraße",
+                "@id": "115",
+                "coordinates": {
+                    "latitude": "53.862046",
+                    "longitude": "10.689187"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "110",
+                            "@distance": "130"
+                        },
+                        {
+                            "@to": "113",
+                            "@distance": "110"
+                        },
+                        {
+                            "@to": "116",
+                            "@distance": "72"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Mühlenstraße / An der Mauer",
+                "@id": "116",
+                "coordinates": {
+                    "latitude": "53.861556",
+                    "longitude": "10.688540"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "114",
+                            "@distance": "120"
+                        },
+                        {
+                            "@to": "115",
+                            "@distance": "72"
+                        },
+                        {
+                            "@to": "125",
+                            "@distance": "130"
+                        },
+                        {
+                            "@to": "127",
+                            "@distance": "220"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "An der Obertrave / Hartengrube",
+                "@id": "117",
+                "coordinates": {
+                    "latitude": "53.861946",
+                    "longitude": "10.680605"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "103",
+                            "@distance": "95"
+                        },
+                        {
+                            "@to": "118",
+                            "@distance": "97"
+                        },
+                        {
+                            "@to": "122",
+                            "@distance": "190"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Hartengrube / Lichte Querstraße",
+                "@id": "118",
+                "coordinates": {
+                    "latitude": "53.862009",
+                    "longitude": "10.681977"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "104",
+                            "@distance": "110"
+                        },
+                        {
+                            "@to": "117",
+                            "@distance": "97"
+                        },
+                        {
+                            "@to": "119",
+                            "@distance": "110"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Hartengrube / Großer Bauhof",
+                "@id": "119",
+                "coordinates": {
+                    "latitude": "53.861886",
+                    "longitude": "10.683768"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "118",
+                            "@distance": "110"
+                        },
+                        {
+                            "@to": "120",
+                            "@distance": "69"
+                        },
+                        {
+                            "@to": "123",
+                            "@distance": "68"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Großer Bauhof / Parade",
+                "@id": "120",
+                "coordinates": {
+                    "latitude": "53.861816",
+                    "longitude": "10.684948"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "105",
+                            "@distance": "150"
+                        },
+                        {
+                            "@to": "119",
+                            "@distance": "69"
+                        },
+                        {
+                            "@to": "121",
+                            "@distance": "98"
+                        },
+                        {
+                            "@to": "124",
+                            "@distance": "85"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Domkirchhof / Fegefeuer",
+                "@id": "121",
+                "coordinates": {
+                    "latitude": "53.861559",
+                    "longitude": "10.686194"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "112",
+                            "@distance": "140"
+                        },
+                        {
+                            "@to": "120",
+                            "@distance": "98"
+                        },
+                        {
+                            "@to": "125",
+                            "@distance": "130"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "An der Obertrave / Effengrube",
+                "@id": "122",
+                "coordinates": {
+                    "latitude": "53.860879",
+                    "longitude": "10.682808"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "117",
+                            "@distance": "190"
+                        },
+                        {
+                            "@to": "123",
+                            "@distance": "81"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Effengrube / Großer Bauhof",
+                "@id": "123",
+                "coordinates": {
+                    "latitude": "53.861301",
+                    "longitude": "10.683873"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "119",
+                            "@distance": "68"
+                        },
+                        {
+                            "@to": "122",
+                            "@distance": "81"
+                        },
+                        {
+                            "@to": "124",
+                            "@distance": "51"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Kleiner Bauhof / Mühlendamm",
+                "@id": "124",
+                "coordinates": {
+                    "latitude": "53.861112",
+                    "longitude": "10.684513"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "120",
+                            "@distance": "85"
+                        },
+                        {
+                            "@to": "123",
+                            "@distance": "51"
+                        },
+                        {
+                            "@to": "126",
+                            "@distance": "130"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Domkirchhof / Musterbahn",
+                "@id": "125",
+                "coordinates": {
+                    "latitude": "53.860660",
+                    "longitude": "10.687417"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "116",
+                            "@distance": "130"
+                        },
+                        {
+                            "@to": "121",
+                            "@distance": "130"
+                        },
+                        {
+                            "@to": "126",
+                            "@distance": "170"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Mühlendamm / Musterbahn",
+                "@id": "126",
+                "coordinates": {
+                    "latitude": "53.860108",
+                    "longitude": "10.685071"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "124",
+                            "@distance": "130"
+                        },
+                        {
+                            "@to": "125",
+                            "@distance": "170"
+                        },
+                        {
+                            "@to": "128",
+                            "@distance": "220"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Mühlenbrücke / Wallstraße",
+                "@id": "127",
+                "coordinates": {
+                    "latitude": "53.859910",
+                    "longitude": "10.690474"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "116",
+                            "@distance": "220"
+                        },
+                        {
+                            "@to": "128",
+                            "@distance": "300"
+                        }
+                    ]
+                }
+            },
+            {
+                "@name": "Mühlendamm / Wallstraße",
+                "@id": "128",
+                "coordinates": {
+                    "latitude": "53.858456",
+                    "longitude": "10.686757"
+                },
+                "edges": {
+                    "edge": [
+                        {
+                            "@to": "126",
+                            "@distance": "220"
+                        },
+                        {
+                            "@to": "127",
+                            "@distance": "300"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
